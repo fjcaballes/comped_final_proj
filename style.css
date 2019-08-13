@@ -81,7 +81,13 @@ section#work{
   background:url(./img/section2-bg.JPG) no-repeat center;
   background-size: cover;
 }
-section#intro table, section#work table{
+
+section#love{
+  background:url(./img/section3-bg.JPG) no-repeat center;
+  background-size: cover;
+}
+
+section#intro table, section#work table, section#love table{
   width: 1200px;
   margin: auto;
 }
