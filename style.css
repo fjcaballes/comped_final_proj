@@ -7,7 +7,7 @@ body {
   color:#fff;
 }
 
-header{
+header.home{
   background:url(./img/header-bg.JPG) no-repeat center;
   background-size: cover;
   width: 100%;
@@ -72,6 +72,10 @@ section{
   float:left;
 }
 
+section#prof-intro{
+  padding: 100px 0 50px 0;
+}
+
 section#intro{
   background:url(./img/section1-bg.JPG) no-repeat center;
   background-size: cover;
@@ -87,7 +91,7 @@ section#love{
   background-size: cover;
 }
 
-section#intro table, section#work table, section#love table{
+section#intro table, section#work table, section#love table, section#prof-intro table{
   width: 1200px;
   margin: auto;
 }
@@ -103,4 +107,10 @@ p{
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
+}
+
+.fj-avatar{
+  max-width: 250px;
+  height: auto;
+  margin: 30px;
 }
