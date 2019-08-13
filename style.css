@@ -76,30 +76,20 @@ section#intro{
   background:url(./img/section1-bg.JPG) no-repeat center;
   background-size: cover;
 }
-section#intro table{
-  width: 90vw;
+
+section#work{
+  background:url(./img/section2-bg.JPG) no-repeat center;
+  background-size: cover;
+}
+section#intro table, section#work table{
+  width: 1200px;
   margin: auto;
 }
 
 
-section#intro table tr{
-  width: 100%;
-}
-
-section#intro table tr th.left{
-  width: 40%;
-  float: left;
-}
-
-
-section#intro table tr th.right{
-  width: 55%;
-  float: left;
-  text-align: left;
-}
-
 h1 {
   font-size: 48px;
+  line-height: 0;
   font-weight: 300;
 }
 
