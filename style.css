@@ -95,6 +95,17 @@ section#intro table, section#work table, section#love table, section#prof-intro 
   margin: auto;
 }
 
+section#educ-timeline{
+  width: 1200px;
+  margin: -100px auto 0 auto;
+  text-align: center;
+}
+
+section#educ-timeline img{
+  margin: auto;
+  display: block;
+}
+
 section#intro.profile td img{
   transition: 0.3s;
 }
