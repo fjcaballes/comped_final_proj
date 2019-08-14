@@ -127,9 +127,11 @@ p{
 }
 
 .fj-avatar{
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
   margin: 30px;
+  border:solid 10px rgba(225,225,225,.1);
+  border-radius: 100%;
 }
 
 
